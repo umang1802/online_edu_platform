@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "email": "singh.umag1802@gmail.com",
+      "password": "$2a$10$76lWjd1ft4cwoSA1KkDsDO3b.c7zJfwt.XGisAWHHE2FMGcQVHw.S",
+      "repassword": "Umang@1802",
+      "id": 1
+    },
+    {
+      "email": "singh.umang1802@gmail.com",
+      "password": "$2a$10$7YQx3V6uOhAusDtFMJbYouJekx0w8la8FwnXtdM2OUDyjDcrsQgnK",
+      "repassword": "Umang@1802",
+      "id": 2
+    },
+    {
+      "email": "singh.umang1802@abc.com",
+      "password": "$2a$10$JdHutHga7YoI7OswqjHWbOCDrykN//gidIusoiV3prnn.43xb4YiG",
+      "repassword": "Umang@1802",
+      "id": 3
+    },
+    {
+      "email": "umang@sc.com",
+      "password": "$2a$10$xlctjofQ2FTq8bQIjF/1fuvIyVgy8IR1wWqxA1knxSqH5ovc6iofe",
+      "repassword": "umang",
+      "id": 4
+    },
+    {
+      "email": "singh.umang1802@gmai.com",
+      "password": "$2a$10$vYyFvRLs8kXBDtZuaT6tgeJc9jG9rIi81NGbZ.rkTMdsLAFMdM7Nm",
+      "id": 5
+    },
+    {
+      "email": "umang@def.com",
+      "password": "$2a$10$lbP9H8ZiCNMsjmbGtcz.F.p/gwWMFIgzXTRMuFzUnsFDmGWpOkZUm",
+      "id": 6
+    }
+  ],
+  "catalogue" : [
+    {
+    "id": 1,
+    "name": "Javascript fundamentals",
+    "description": "From zero to hero in javascript. Learn by doing 10 real world projects",
+    "image": "https://analyticsindiamag.com/wp-content/uploads/2019/11/javascript.png",
+    "instructor": "Umang Singh"
+},
+    {
+        "id": 2,
+        "name": "Python fundamentals",
+        "description": "From zero to hero in python. Learn by doing 10 real world projects",
+        "image": "https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019-1024x574.jpg",
+        "instructor": "Umang Singh"
+},
+{
+    "id": 3,
+    "name": "Javascript fundamentals",
+    "description": "From zero to hero in java script. Learn by doing 10 real world projects",
+    "image": "https://analyticsindiamag.com/wp-content/uploads/2019/11/javascript.png",
+    "instructor": "Umang Singh"
+}],
+
+        "course" : [
+           {
+               "id": 1,
+               "data": [{
+                    "key": "first-level-node-1",
+                    "parent": true,
+                    "label": "Introduction",
+                    "nodes": [
+                        {
+                            "key": "second-level-node-1",
+                            "label": "What is Javascript",
+                            "parent": false,
+                            "desc": {
+                                "title": "What is Javascript",
+                                "textcontent": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.",
+                                "image": "https://analyticsindiamag.com/wp-content/uploads/2019/11/javascript.png"
+                            }
+                        },
+                        {
+                            "key": "second-level-node-2",
+                            "label": "What is ES6",
+                            "parent": false,
+                            "desc":  {
+                                "title": "What is ES6",
+                                "textcontent": "ES6 is actually supported in a lot of places, with the main problem being Internet Explorer (as usual). So, while you may be able to just start writing with ES6 style, you can’t be certain everyone’s browser will behave the same.",
+                                "image": "https://www.cloudsavvyit.com/thumbcache/0/0/c71cf45b45ee1444c3059a7b97e6e4fe/p/uploads/2019/07/9608c9ff.png"
+                            }
+                        }
+                    ]
+               }]
+           },
+           {
+            "id": 2,
+            "data": [{
+                 "key": "first-level-node-1",
+                 "parent": true,
+                 "label": "Introduction",
+                 "nodes": [
+                     {
+                         "key": "second-level-node-1",
+                         "label": "What is Python",
+                         "parent": false,
+                         "desc": {
+                             "title": "What is Python",
+                             "textcontent": "The online documentation is your first port of call for definitive information. There is a fairly brief tutorial that gives you basic information about the language and gets you started. You can follow this by looking at the library reference for a full description of Python's many libraries and the language reference for a complete (though somewhat dry) explanation of Python's syntax. If you are looking for common Python recipes and patterns, you can browse the ActiveState Python Cookbook",
+                             "image": "https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019-1024x574.jpg"
+                         }
+                     },
+                     {
+                         "key": "second-level-node-2",
+                         "label": "What is ES6",
+                         "parent": false,
+                         "desc":  {
+                             "title": "What is ES6",
+                             "textcontent": "ES6 is actually supported in a lot of places, with the main problem being Internet Explorer (as usual). So, while you may be able to just start writing with ES6 style, you can’t be certain everyone’s browser will behave the same.",
+                             "image": "https://www.cloudsavvyit.com/thumbcache/0/0/c71cf45b45ee1444c3059a7b97e6e4fe/p/uploads/2019/07/9608c9ff.png"
+                         }
+                     }
+                 ]
+            },
+            {
+                 "key": "first-level-node-2",
+                 "parent": true,
+                 "label": "Introduction to OOPS",
+                 "nodes": [
+                     {
+                         "key": "second-level-node-1",
+                         "label": "What is OOPS",
+                         "parent": false,
+                         "desc": {
+                             "title": "What is Python",
+                             "textcontent": "The online documentation is your first port of call for definitive information. There is a fairly brief tutorial that gives you basic information about the language and gets you started. You can follow this by looking at the library reference for a full description of Python's many libraries and the language reference for a complete (though somewhat dry) explanation of Python's syntax. If you are looking for common Python recipes and patterns, you can browse the ActiveState Python Cookbook",
+                             "image": "https://static.javatpoint.com/images/java-oops.png"
+                         }
+                     },
+                     {
+                         "key": "second-level-node-2",
+                         "label": "What is class",
+                         "parent": false,
+                         "desc":  {
+                             "title": "What is ES6",
+                             "textcontent": "ES6 is actually supported in a lot of places, with the main problem being Internet Explorer (as usual). So, while you may be able to just start writing with ES6 style, you can’t be certain everyone’s browser will behave the same.",
+                             "image": "https://www.cloudsavvyit.com/thumbcache/0/0/c71cf45b45ee1444c3059a7b97e6e4fe/p/uploads/2019/07/9608c9ff.png"
+                         }
+                     }
+                 ]
+            }
+        ]
+        },
+        {
+            "id": 3,
+            "data": [{
+                 "key": "first-level-node-1",
+                 "parent": true,
+                 "label": "Introduction",
+                 "nodes": [
+                     {
+                         "key": "second-level-node-1",
+                         "label": "What is Javascript",
+                         "parent": false,
+                         "desc": {
+                             "title": "What is Javascript",
+                             "textcontent": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.",
+                             "image": "https://analyticsindiamag.com/wp-content/uploads/2019/11/javascript.png"
+                         }
+                     },
+                     {
+                         "key": "second-level-node-2",
+                         "label": "What is ES6",
+                         "parent": false,
+                         "desc":  {
+                             "title": "What is ES6",
+                             "textcontent": "ES6 is actually supported in a lot of places, with the main problem being Internet Explorer (as usual). So, while you may be able to just start writing with ES6 style, you can’t be certain everyone’s browser will behave the same.",
+                             "image": "https://www.cloudsavvyit.com/thumbcache/0/0/c71cf45b45ee1444c3059a7b97e6e4fe/p/uploads/2019/07/9608c9ff.png"
+                         }
+                     }
+                 ]
+            }]
+        }
+
+        ]
+}

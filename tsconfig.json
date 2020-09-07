@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    "module": "esnext",
+    "jsx": "react",
+    "target": "es5",
+    "moduleResolution": "node",
+    "declarationDir": "dist",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
