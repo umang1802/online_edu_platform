@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Steps to run in local
 
-## Available Scripts
+1. clone the repository and navigate to the root directory
+2. give npm install and npm start
+3. In root directory navigate to mock-server directory and give npm install and npm start(this server mocks DB)
 
-In the project directory, you can run:
 
-### `yarn start`
+you will have the app running at localhost:3000/login
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+you can login using
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+singh.umang1802@gmail.com/Umang@1802
 
-### `yarn test`
+or 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Signup using your own credentials
 
-### `yarn build`
+I have used json-auth-server to mock login/signup
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+after login you will get course catalogue page in which all the data is coming from mock db and mock API
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+one can only navigate to catalogue and course page after succesfull login. I have used context to implement it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+user can select a course and will be redirected to course page
 
-### `yarn eject`
+course page has course structure tree(which i have built using Typescript) and learning content again all the data mocked.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I took this as an opportunity to learn typescript and react hooks to apply to this project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#POSSIBLE GLITCHES
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+while navigating back to catalougue page from course page some times browser back button responds to double click I am analysing and trying to fix it
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You may find redundant data.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
